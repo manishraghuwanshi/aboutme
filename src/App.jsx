@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -12,6 +13,13 @@ export default function App() {
           linkedin: "https://linkedin.com/in/manish",
           twitter: "https://twitter.com/manish",
         }}
+      />
+      <Footer
+        text="© 2026 Manish Raghuwanshi"
+        links={[
+          { label: "GitHub", href: "https://github.com/" },
+          { label: "LinkedIn", href: "https://linkedin.com/" },
+        ]}
       />
     </>
   );
