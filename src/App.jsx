@@ -1,15 +1,18 @@
-import React from 'react'
-import './App.css'
-import Header from './components/Header'
+import Header from "./components/Header";
 
-const App = () => {
+export default function App() {
   return (
     <>
-    <Header />
-    <div>App</div>
-    
+      <Header
+        name="Manish Raghuwanshi"
+        role="React + Next.js Developer"
+        avatar="/img1.jpg"
+        links={{
+          github: "https://github.com/manish",
+          linkedin: "https://linkedin.com/in/manish",
+          twitter: "https://twitter.com/manish",
+        }}
+      />
     </>
-  )
+  );
 }
-
-export default App

@@ -1,0 +1,49 @@
+.header {
+  width: 100%;
+  padding: 16px 32px;
+  background: #0f0f0f;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #222;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #444;
+}
+
+.name {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.role {
+  margin: 0;
+  margin-top: 2px;
+  opacity: 0.7;
+  font-size: 0.95rem;
+}
+
+.nav a {
+  color: #ddd;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 0.95rem;
+  transition: 0.2s ease;
+}
+
+.nav a:hover {
+  color: #fff;
+}
